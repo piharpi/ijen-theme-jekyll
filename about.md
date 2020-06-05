@@ -1,18 +1,16 @@
 ---
-title: Colophon
+title: About Me, Trevor Konya
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: I'm a software engineer from the US, I've lived in Ohio, Seoul and New York City. Hopefully by the time you read this that info is out of date!
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+<figure>
+<img src="/assets/img/samurai.jpg" alt="Fig 1. Very strong and handsome half-Japanese man">
+<figcaption>Fig 1. Very strong and handsome man at Hiroshima Castle</figcaption>
+</figure>
 
-If you have a question about him or else, just send a letter to him.
+I'm a software engineer from the US, I've lived in Ohio and Seoul, and I currently reside in New York City. Hopefully by the time you read this that info is out of date! I love breathing in new people, places and things. 
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-##### may u needs ✨
-
-- {{ site.author.email }}
-- github.com/{{ site.author.username }}
+I consider myself a code craftsman, and I take pride in my work. I love writing code and I hope to be doing it for a long time. I work in Go right now. In the past I have written a lot of Java, Javascript and MySQL. In the future I'd like to get more experience with Kotlin.

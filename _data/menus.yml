@@ -2,12 +2,12 @@
   url: /
   external: false
 
-- title: about
+- title: about me
   url: /about/
   external: false
 
-- title: notes
-  url: /notes/
+- title: tools
+  url: /tools/
   external: false # set true if you using external link, see bellow
 
 # Example:
