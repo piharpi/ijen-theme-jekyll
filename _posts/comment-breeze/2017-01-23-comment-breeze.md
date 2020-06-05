@@ -10,7 +10,7 @@ image: "/comment-breeze/comment-breeze.jpg"
 The first arguably large independent project I created was <a href="http://comment-breeze.xyz/" target="_blank">Comment Breeze</a>. I'll devote this first post to an overview of it. The <a href="https://github.com/tkonya/Comment-Breeze" target="_blank">full source code</a> is available on my GitHub.
 
 <figure>
-<img src="/assets/img/comment-breeze.jpg" alt="Fig 1. Comment Breeze build tab.">
+<img src="/comment-breeze/comment-breeze.jpg" alt="Fig 1. Comment Breeze build tab.">
 <figcaption>Fig 1. Comment Breeze build tab.</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ The first arguably large independent project I created was <a href="http://comme
 During a time my girlfriend worked as an ESL teacher in Korea I made a tool to help her and her co-workers write report card comments for their students. They were required to write about 1 paragraph per student every 1.5 - 2 months. This would likely be mostly or all generic statements about the student's performance or progress, and only one or two specific statements if necessary. Some teachers preferred to write highly crafted comments, many didn't really care what they wrote, and the rest were somewhere in between.
 
 <figure>
-<img src="/assets/img/esl-reports.jpg" alt="Fig 1. ESL Reports.">
+<img src="/comment-breeze/esl-reports.jpg" alt="Fig 1. ESL Reports.">
 <figcaption>Fig 2. ESL Reports.</figcaption>
 </figure>
 

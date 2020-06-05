@@ -24,14 +24,14 @@ Of course this got me thinking, since all the data is already in a computer, it 
 Kroger Bill Splitter (<a href="https://github.com/tkonya/Kroger-Bill-Splitter" target="_blank">see GitHub for the code</a>) is my current bare-bones, but sufficient, way of splitting the bill. The script adds a slider to each item, it moves in 5% increments and allows you to allot a different percent financial responsibility to each item. It distributes the price of the item between each person, proportional to the percent you enter, and totals each person's portion up at the end.
 
 <figure>
-<img src="/assets/img/bill-splitter-1PNG.PNG" alt="Fig 1. Kroger bill line item, with slider.">
+<img src="/kroger-bill-splitter/bill-splitter-1PNG.PNG" alt="Fig 1. Kroger bill line item, with slider.">
 <figcaption>Fig 1. Kroger bill line item, with slider.</figcaption>
 </figure>
 
 Above you can see what a single line item looks like. The boxed portion at the lower right is what the script adds. Clicking on the percentage on either side moves the slider all the way to one side or another, since most of the time we are either splitting something 50/50 or one of us is fully paying for it. It is uncommon that we do anything other than that, but sometimes (like with this single microwavable burrito) we may be splitting it asymmetrically. 
 
 <figure>
-<img src="/assets/img/bill-splitter-2.PNG" alt="Fig 2. Kroger bill splitter totals">
+<img src="/kroger-bill-splitter/bill-splitter-2.PNG" alt="Fig 2. Kroger bill splitter totals">
 <figcaption>Fig 2. Kroger bill splitter totals</figcaption>
 </figure>
 
