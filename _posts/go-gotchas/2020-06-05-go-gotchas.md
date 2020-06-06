@@ -7,6 +7,8 @@ description: Some gotchas or surprising features of the Go langauge
 image: "https://golang.org/lib/godoc/images/go-logo-blue.svg"
 ---
 
+I have had the good fortune of being able to use Go in my current job. I like the language a lot, it is pretty straightforward. I like that it is typed for safety. I like that 
+
 #### Calling a method on a nil pointer
 
 ```go

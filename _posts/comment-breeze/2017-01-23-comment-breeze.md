@@ -7,7 +7,7 @@ description: An overview of developing my largest-at-the-time personal project, 
 image: "/comment-breeze/comment-breeze.jpg"
 ---
 
-The first arguably large independent project I created was <a href="http://comment-breeze.xyz/" target="_blank">Comment Breeze</a>. I'll devote this first post to an overview of it. The <a href="https://github.com/tkonya/Comment-Breeze" target="_blank">full source code</a> is available on my GitHub.
+The first arguably large independent project I created was <a href="https://comment-breeze.konya.io/" target="_blank">Comment Breeze</a>. I'll devote this first post to an overview of it. The <a href="https://github.com/tkonya/Comment-Breeze" target="_blank">full source code</a> is available on my GitHub.
 
 <figure>
 <img src="/comment-breeze/comment-breeze.jpg" alt="Fig 1. Comment Breeze build tab.">
