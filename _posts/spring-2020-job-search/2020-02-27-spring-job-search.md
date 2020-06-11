@@ -56,7 +56,7 @@ There are other platforms similar to Triplebyte, one being Hired.com. I have no 
 I kept a spreadsheet of application info. Although it’s not optimally organized, I was able to extract some rough numbers from it:
 
 | Total Applications | 204 | 100% |
-| No Response | 147 | 72% |
+| No Response | 149 | 73% |
 | Immediate or Eventual Rejection | 55 | 27% |
 | Offers | 2 | 1% |
 
