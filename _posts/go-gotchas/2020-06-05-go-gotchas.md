@@ -7,7 +7,7 @@ description: Some gotchas or surprising features of the Go langauge
 image: "https://golang.org/lib/godoc/images/go-logo-blue.svg"
 ---
 
-I have had the good fortune of being able to use Go in my current job. I like the language a lot, it is pretty straightforward. I like that it is typed for safety. I like that 
+I have had the good fortune of being able to use Go in my current job. I like the language a lot, it is pretty straightforward. I like that it is typed for safety. I like that the language features are mostly orthogonal. There are however, a few things I find inconsistent, confusing, or surprising. I would like to document these here.
 
 #### Calling a method on a nil pointer
 
@@ -83,3 +83,25 @@ In the example above, modifying the number of hands chopped by each lawnmower is
 If you have to modify what is in one struct but not the other, you need to declare a new variable and get a pointer to that.
 
 This is a trivial example, but you can probably easily imagine how this can get really complicated when you want to copy a struct with other structs nested inside, any of which might contain pointers.
+
+#### Using len() on strings that contain high unicode characters
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	foo := "Föö" // ö is a 2-byte character in unicode
+	
+	fmt.Println(len(foo)) // prints 5, because this is counting bytes
+	
+	fmt.Println(len([]rune(foo))) // prints 3, what you probably want, because it is 3 discrete runes
+	
+	fmt.Println(foo[1:2]) // prints � because you just tried to cut a 2 byte character in half
+}
+```
+
+Something that is definitely unintuitive about len() is that when you use it on a string it doens't actually count the characters, it counts the bytes. It just so happens that many commonly used characters are one byte so this doesn't matter, and it is likely to slip by the programmer unnoticed.
