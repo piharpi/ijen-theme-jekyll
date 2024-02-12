@@ -2,13 +2,13 @@
   url: /
   external: false
 
-- title: archive
-  url: /archive/
-  external: false
-
 - title: about
-  url: /about/
-  external: false # set true if you using external link, see below
+  url: https://linkedin.com/in/mubaroki
+  external: true # set true if you using external link, see below
+
+- title: contact
+  url: /contact/
+  external: false
 
 # Example:
 # - title: github

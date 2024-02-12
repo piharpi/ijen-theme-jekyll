@@ -1,0 +1,52 @@
+---
+title: Let's Keep in Touch
+description: Want to get in touch me? You can contact Akhmad Nushoir Mubaroki a.k.a Oki with fill form in this page.
+permalink: /contact/
+layout: page
+---
+<div class="contact">
+    <p>Want to get in touch? Open to discuss about business opportunities or other things that can be collaborated on. Please fill in the fields below to make it easier to contact me by mail.</p>
+    <div class="container">
+        <form action="https://public.herotofu.com/v1/cf002120-c6b0-11ee-ac5a-9d9501900f1a" method="post" accept-charset="UTF-8">
+            <div class="form-group">
+                <label for="name">What's your name?<span class="mark">*</span></label>
+                <input class="form-control" name="input_name" id="name" type="text" minlength="3" maxlength="36" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">What's your email address?<span class="mark">*</span></label>
+                <input class="form-control" name="input_email" id="email" type="email" minlength="9" maxlength="36" placeholder="Enter your valid email address" required />
+            </div>
+            <div class="form-group">
+                <label for="phone">Do you have phone number?</label>
+                <input class="form-control" id="phone" type="tel" minlength="9" maxlength="18" placeholder="If you have it, please fill with WhatsApp number" required />
+                <input type="hidden" />
+            </div>
+            <div class="form-group">
+                <label for="message">What's your message?<span class="mark">*</span></label>
+                <textarea class="form-control" name="input_message" id="message" rows="5" minlength="50" maxlength="250" placeholder="Your comment..." required ></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send your message</button>
+                <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/css/intlTelInput.css">
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/intlTelInput.min.js"></script>
+<script>
+    const input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        initialCountry: "auto",
+        geoIpLookup: callback => {
+            fetch("https://ipapi.co/json")
+            .then(res => res.json())
+            .then(data => callback(data.country_code))
+            .catch(() => callback("id"));
+        },
+        hiddenInput: () => "input_phone",
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/utils.js",
+    });
+</script>
