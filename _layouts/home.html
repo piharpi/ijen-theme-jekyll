@@ -2,13 +2,20 @@
 layout: default
 home: true
 ---
-
+<h3 class="posts-item-note" aria-label="Recommendations">Recommendations</h3>
+{%- for link in site.data.recommendations -%}
+<div class="post-item">
+  <h2 class="post-item-title">
+    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title | escape }}</a>
+  </h2>
+</div>
+{% endfor %}
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
+  <h2 class="post-item-title">
     <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
+  </h2>
 </article>
 {%- endfor -%}
