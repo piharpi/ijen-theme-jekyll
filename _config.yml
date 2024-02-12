@@ -1,31 +1,29 @@
 # Site settings
-title: Akhmad Nushoir Mubaroki # site title
+title: Klise Theme # site title
 description: >- # site description
-  Hi there! you can call me "OKI", from elementary school I have famous name "MUBAROKI". Familiar with WordPress, Linux Server and Digital Marketing since 2008.
-lang: en-ID # default lang
+  He's writing in Bahasa about web technology and experience as a journal 
+  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/mubaroki/jekyll-klise # site repo [optional]
-mode: light # default theme "dark" | "light"
+repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Akhmad Nushoir Mubaroki # author name
+  name: Jekyll Klisé # author name
   bio: >- # tell to the world
-    Hi there! you can call me "OKI". From elementary school I have famous name "MUBAROKI".
-    Circa 2008 was my first experience developing website using WordPress, Linux server and optimize their traffic with digital marketing.
-  username: anmubaroki # general username
-  linkedin: mubaroki # linkedin username
-  instagram: anmubaroki # instagram username
-  telegram: anmubaroki # telegram username
-  github: mubaroki # github username
-  twitter: anmubaroki # twitter username
-  facebook: anmubaroki # facebook username
-  email: an@mubaroki.com # email address
+    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
+    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+  username: username # general username
+  github: github_username # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: your-email@email.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://mubaroki.com" #
+url: "https://klise.now.sh" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -72,7 +70,6 @@ sass:
 include:
   - _redirects
   - .htaccess
-  - robots.txt
 
 exclude:
   - CNAME

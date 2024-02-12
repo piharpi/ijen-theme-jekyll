@@ -1,12 +1,12 @@
 ---
 title: How this site was born 👶
-date: 2024-01-20 09:45:47 +07:00
-modified: 2024-01-20 09:24:47 +07:00
+date: 2018-09-28 09:45:47 +07:00
+modified: 2019-08-29 09:24:47 +07:00
 tags: [blog, netlify, jekyll, github]
 description: All the services are free, a source code this site placed on github repository and intergration with netlify service, another service that you can use is github page for hosting your own static site.
 ---
 
-Since January 2024, this website was made using Jekyll the one of open source static sites generator, and using simple theme from Ch. Harpi, called [klisé](https://github.com/piharpi/jekyll-klise){:target="_blank"}.
+The website was made using Jekyll the one of open source static sites generator, and using my own simple theme, I called [klisé](https://github.com/piharpi/klise).
 
 <hr>
 

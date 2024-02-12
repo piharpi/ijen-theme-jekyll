@@ -1,39 +1,46 @@
 <footer class="footer">
-  <!-- <a class="footer_item" href="/thanks">ack.</a> -->
-  <a class="footer_item" href="/archive/">archive.</a>
-  <a class="footer_item" href="/nohello/">nohello.</a>
-  <a class="footer_item" href="/feed.xml" target="_blank" rel="noopener">sitemap.</a>
-  <span class="footer_item">&copy; 2010-{{ site.time | date: "%Y" }}</span>
+  <a class="footer_item" href="/thanks">ack.</a>
+  <a class="footer_item" href="javascript::void(0)">resume</a>
+  <a class="footer_item" href="/feed.xml">rss</a>
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
   <small class="footer_copyright">
-    <a href="https://mubaroki.com">mubaroki.com</a> theme customize at 
-    <a href="https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta" target="_blank" rel="noopener">
-    Ngayogyakarta</a> Hadiningrat.
+    <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
+    <a
+      href="https://github.com/piharpi/jekyll-klise"
+      target="_blank"
+      rel="noreferrer noopener"
+      >klisé</a
+    >
+    theme on
+    <a href="https://jekyllrb.com" target="_blank" rel="noreferrer noopener"
+      >jekyll</a
+    >
   </small>
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
 {%- if site.google_analytics -%}
-<!-- Google tag (gtag.js) -->
-<script
-async
-src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  
-  gtag("config", "{{ site.google_analytics }}");
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ site.google_analytics }}");
+  </script>
 {%- endif -%}
 {%- if page.url == '/archive/' -%}
-<script src="/assets/js/search.min.js"></script>
-<script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('search-results'),
-    json: '/assets/search.json',
-  });
-</script>
+  <script src="/assets/js/search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/assets/search.json',
+    });
+  </script>
 {%- endif -%}
