@@ -228,7 +228,10 @@
       text-decoration: none;
       vertical-align: middle;
       user-select: none;
-      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out,
+      background-color .15s ease-in-out,
+      border-color .15s ease-in-out,
+      box-shadow .15s ease-in-out;
       opacity: 0.9;
       background-color: transparent;
       border-color: transparent;
@@ -237,12 +240,12 @@
       border-radius: .2rem;
       cursor: pointer;
       margin: .25rem .125rem;
-    }
-    svg {
-      position: relative;
-      bottom: -3px;
-      outline: none;
-      margin-right: .5rem !important;
+      svg {
+        position: relative;
+        bottom: -3px;
+        outline: none;
+        margin-right: .5rem !important;
+      }
     }
     .linkedin:hover {
       background-color: #0e76a8;
