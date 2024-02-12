@@ -237,9 +237,12 @@
       border-radius: .2rem;
       cursor: pointer;
       margin: .25rem .125rem;
-      .space {
-        margin-right: .5rem !important;
-      }
+    }
+    svg {
+      position: relative;
+      bottom: -3px;
+      outline: none;
+      margin-right: .5rem !important;
     }
     .linkedin:hover {
       background-color: #0e76a8;
