@@ -215,38 +215,6 @@
   }
   
   .author-social-media {
-    .button {
-      box-sizing: border-box;
-      font-family: inherit;
-      text-transform: none;
-      -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: transparent;
-      display: inline-block;
-      font-weight: 400;
-      line-height: 1.5;
-      text-align: center;
-      text-decoration: none;
-      vertical-align: middle;
-      user-select: none;
-      transition: color .15s ease-in-out,
-      background-color .15s ease-in-out,
-      border-color .15s ease-in-out,
-      box-shadow .15s ease-in-out;
-      opacity: 0.9;
-      background-color: transparent;
-      border-color: transparent;
-      padding: .25rem .5rem;
-      font-size: .875rem;
-      border-radius: .2rem;
-      cursor: pointer;
-      margin: .25rem .125rem;
-      svg {
-        position: relative;
-        bottom: -3px;
-        outline: none;
-        margin-right: .5rem !important;
-      }
-    }
     .linkedin:hover {
       background-color: #0e76a8;
       color: #fff;
@@ -483,8 +451,8 @@
     }
     .history-back {
       margin-top: 2rem;
-      .space {
-        margin-right: 1rem !important;
+      .back:hover {
+       background-color: #f8f9fa;
       }
     }
   }
@@ -551,5 +519,36 @@
   }
 }
 
-// External
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+// Button
+.button {
+  box-sizing: border-box;
+  font-family: inherit;
+  text-transform: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  transition: color .15s ease-in-out,
+  background-color .15s ease-in-out,
+  border-color .15s ease-in-out,
+  box-shadow .15s ease-in-out;
+  opacity: 0.9;
+  background-color: transparent;
+  border-color: transparent;
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  margin: .25rem .125rem;
+  svg {
+    position: relative;
+    bottom: -3px;
+    outline: none;
+    margin-right: .5rem !important;
+  }
+}
