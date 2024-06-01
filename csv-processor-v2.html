@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Processor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+	<style>
+        .hidden {
+            display: none;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-item {
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSV Processor ✨V2.0✨</h1>
+
+    <section id="file-upload">
+        <h2>File Upload</h2>
+        <input type="file" id="csvFileInput" accept=".csv">
+    </section>
+
+	<div class="flex-container">
+		<section id="tags-to-exclude" class="flex-item hidden">
+			<h2>Tags to Exclude</h2>
+			<p>Any rows containing the checked tags will be excluded</p>
+			<div id="tagsList"></div>
+		</section>
+
+		<section id="notes-to-exclude" class="flex-item hidden">
+			<h2>Notes to Exclude</h2>
+			<p>Any rows with the note in the Company name field will be excluded</p>
+			<div id="notesList"></div>
+		</section>
+	</div>
+
+    <section id="file-download" class="hidden">
+        <h2>File Download</h2>
+        <button id="downloadButton">Download Processed CSV</button>
+    </section>
+
+    <script src="csv-processor-v2.js"></script>
+</body>
+</html>
