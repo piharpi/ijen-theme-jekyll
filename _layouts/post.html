@@ -89,6 +89,22 @@ layout: compress
 
     {% include footer.html %}
   </div>
+
+  <script type="module">
+    function setDirAttributes() {
+      const pageContent = document.querySelector('.page-content');
+      const elements = pageContent.querySelectorAll('*');
+
+      elements.forEach(element => {
+        const text = element.textContent.trim();
+        if (text) {
+          element.setAttribute('dir', 'auto');
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', setDirAttributes);
+  </script>
 </body>
 
 </html>
