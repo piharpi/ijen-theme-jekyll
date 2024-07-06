@@ -145,6 +145,7 @@
     &:hover {
       .anchor-head {
         color: $text-link-blue;
+        text-align: start;
         opacity: 1;
       }
     }
@@ -157,7 +158,7 @@
       &::before {
         content: "#";
         position: absolute;
-        right: -3px;
+        margin-inline-start: -1em;
         width: 1em;
         font-weight: $bold-weight;
       }

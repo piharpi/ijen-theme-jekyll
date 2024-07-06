@@ -28,6 +28,22 @@ layout: compress
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
+  <script type="module">
+    function setDirAttributes() {
+      const pageContent = document.querySelector('.page-content');
+      const elements = pageContent.querySelectorAll('*');
+
+      elements.forEach(element => {
+        const text = element.textContent.trim();
+        if (text) {
+          element.setAttribute('dir', 'auto');
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', setDirAttributes);
+  </script>
+
   {% include navbar.html %}
   <div class="wrapper">
     <header class="header">

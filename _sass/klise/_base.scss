@@ -140,17 +140,27 @@ ul {
   list-style: none;
   li {
     display: list-item;
-    text-align: -webkit-match-parent;
+    text-align: start;
   }
   li::before {
     content: "\FE63";
     display: inline-block;
-    top: -1px;
-    width: 1.2em;
     position: relative;
-    margin-left: -1.3em;
+    top: -1px;
     font-weight: 700;
+    margin-inline-start: -1.3em; /* Replaces margin-left */
+    width: 1.2em;
   }
+}
+
+ul[dir="ltr"] li::before {
+  margin-inline-start: -1.3em;
+  margin-inline-end: 0;
+}
+
+ul[dir="rtl"] li::before {
+  margin-inline-end: -1.3em; /* Adjusts for RTL direction */
+  margin-inline-start: 0;
 }
 
 ol {
@@ -160,23 +170,30 @@ ol {
     position: relative;
     counter-increment: li;
     &::before {
-      content: counter(li);
+      content: counter(li)'.';
       display: inline-block;
-      width: 1em;
-      margin-right: 0.5em;
-      margin-left: -1.6em;
-      text-align: right;
-      direction: rtl;
+      width: 1.2em;
+      margin-inline-start: -1.3em;
       font-weight: $bold-weight;
       font-size: $small-font-size;
     }
   }
 }
 
+ol[dir="ltr"] li::before {
+  margin-inline-start: -1.3em;
+  margin-inline-end: 0;
+}
+
+ol[dir="rtl"] li::before {
+  margin-inline-end: -1.3em; /* Adjusts for RTL direction */
+  margin-inline-start: 0;
+}
+
 ul,
 ol {
   margin-top: 0;
-  margin-left: $spacing-full;
+  margin-inline-start: $spacing-full;
 }
 
 li {
