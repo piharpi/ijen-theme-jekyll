@@ -170,17 +170,24 @@ ol {
     position: relative;
     counter-increment: li;
     &::before {
-      content: counter(li);
+      content: counter(li)'.';
       display: inline-block;
-      width: 1em;
-      margin-right: 0.5em;
-      margin-left: -1.6em;
-      text-align: right;
-      direction: rtl;
+      width: 1.2em;
+      margin-inline-start: -1.3em;
       font-weight: $bold-weight;
       font-size: $small-font-size;
     }
   }
+}
+
+ol[dir="ltr"] li::before {
+  margin-inline-start: -1.3em;
+  margin-inline-end: 0;
+}
+
+ol[dir="rtl"] li::before {
+  margin-inline-end: -1.3em; /* Adjusts for RTL direction */
+  margin-inline-start: 0;
 }
 
 ul,
