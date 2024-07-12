@@ -16,6 +16,14 @@
       initTheme(state);
     }
   };
+
+  const systemThemeToToggle = (e) => {
+    if (e.matches) {
+      toggleTheme("light")
+    } else {
+      toggleTheme("dark")
+    }
+  }
     
   if (themeMode !== "system") {
     lamp.addEventListener("click", () =>
@@ -23,12 +31,9 @@
     );
   } else {
     lamp.remove();
+    systemThemeToToggle(systemDarkModePreference);
     systemDarkModePreference.addEventListener("change", e => {
-      if (e.matches) {
-        toggleTheme("light")
-      } else {
-        toggleTheme("dark")
-      }
+      systemThemeToToggle(e);
     });
   }
 
