@@ -2,6 +2,8 @@
   // Theme switch
   const body = document.body;
   const lamp = document.getElementById("mode");
+  const themeMode = localStorage.getItem("theme");
+  const systemDarkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
 
   const toggleTheme = (state) => {
     if (state === "dark") {
@@ -14,10 +16,21 @@
       initTheme(state);
     }
   };
-
-  lamp.addEventListener("click", () =>
-    toggleTheme(localStorage.getItem("theme"))
-  );
+    
+  if (themeMode !== "system") {
+    lamp.addEventListener("click", () =>
+      toggleTheme(localStorage.getItem("theme"))
+    );
+  } else {
+    lamp.remove();
+    systemDarkModePreference.addEventListener("change", e => {
+      if (e.matches) {
+        toggleTheme("light")
+      } else {
+        toggleTheme("dark")
+      }
+    });
+  }
 
   // Blur the content when the menu is open
   const cbox = document.getElementById("menu-trigger");
