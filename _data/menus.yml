@@ -11,8 +11,8 @@
   external: false # set true if you using external link, see below
 
 - title: album
-  url: /album/
-  external: false # set true if you using external link, see below
+  url: https://www.flickr.com/photos/201379225@N08/
+  external: true # set true if you using external link, see below
 
 # Example:
 # - title: github
