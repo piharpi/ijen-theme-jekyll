@@ -22,9 +22,10 @@ code {
 
 // Codeblock Theme
 pre.highlight, pre {
-  margin: 0 -27px;
+  margin: 0 auto; // Center the code block
+  max-width: 100%; // Set the maximum width of the code block to 100% of the parent container
   @include media-query($on-mobile) {
-    margin: 0 calc(51% - 51vw);
+    margin: 0 auto; // Center on mobile devices as well
     padding-left: 20px;
   }
   border: 1px solid rgba(128,128,128,0.1);
@@ -36,7 +37,7 @@ pre.highlight, pre {
 
   > code {
     width: 100%;
-    max-width: 50rem;
+    max-width: 100%; // Ensure the width of the code element does not exceed the pre element
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
