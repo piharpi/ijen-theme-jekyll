@@ -6,4 +6,4 @@ _drafts
 klise-*.gem
 Gemfile.lock
 .vendor/
-.bundle/
+..bundle/
