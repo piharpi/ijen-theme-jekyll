@@ -11,7 +11,7 @@ mode: light # default theme "dark" | "light"
 # Profile settings
 author:
   name: Andrei Tarkhov # author name
-  bio: >- # tell to the world
+  bio: | # tell to the world
     longevity researcher with a phd in theoretical physics. my dream is to understand why we age and leverage it to significantly impact human health and longevity.
 
     long-term: I work on understanding the fundamental mechanisms of aging through compbio & applied ai, physics & chaos theory with the goal to find practical ways extend longevity
