@@ -1,7 +1,7 @@
 # Site settings
 title: Andrei Tarkhov # site title
 description: >- # site description
-  He's writing about longevity and aging research with a heavy focus on computational approaches, applied ai, computational biology & physics
+  longevity and aging research with a heavy focus on computational approaches, applied ai, computational biology & physics, dynamical systems & chaos theory
 lang: en-US # default lang
 timezone: America/Los_Angeles # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -13,8 +13,11 @@ author:
   name: Andrei Tarkhov # author name
   bio: >- # tell to the world
     longevity researcher with a phd in theoretical physics. my dream is to understand why we age and leverage it to significantly impact human health and longevity.
+
     currently at retro.bio, building applied ai to facilitate the development of life-extending and anti-aging therapies. 
+
     long-term: I work on understanding the fundamental mechanisms of aging through compbio & applied ai, physics & chaos theory with the goal to find practical ways extend longevity
+
   username: tarkhov # general username
   github: TarkhovAndrei # github username
   twitter: Andrei_Tarkhov # twitter username
