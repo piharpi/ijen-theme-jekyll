@@ -1,29 +1,30 @@
 # Site settings
-title: Klise Theme # site title
+title: Andrei Tarkhov # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  He's writing about longevity and aging research with a heavy focus on computational approaches, applied ai, computational biology & physics
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+timezone: America/Los_Angeles # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: dark # default theme "dark" | "light"
+repo: https://github.com/TarkhovAndrei/tarkhov.ae # site repo [optional]
+mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
+  name: Andrei E. Tarkhov # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+    Longevity and aging researcher with a PhD in theoretical physics. I've been interested in understanding the fundamental mechanisms of aging through computational biology & applied ai, statistical physics & dynamical systems & chaos theory. 
+    Currently at retro.bio, I'm building applied ai to facilitate the development of life-extending and anti-aging therapies. 
+    My dream is to better understand why we age and use this understanding to significantly impact human health and longevity. 
+    Besides science, I enjoy good literature, birding, history, learning new languages and exploring various cultures.
+  username: tarkhov # general username
+  github: TarkhovAndrei # github username
+  twitter: Andrei_Tarkhov # twitter username
+  facebook: tarkhov.andrey # facebook username
+  email: tarkhov.andrey@gmail.com # email adress
+  avatar: /assets/img/logo.jpeg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://tarkhov.ae" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
