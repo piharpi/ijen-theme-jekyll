@@ -5,5 +5,5 @@ _site/
 _drafts
 klise-*.gem
 Gemfile.lock
-.vendor/
-..bundle/
+vendor/
+.bundle/
