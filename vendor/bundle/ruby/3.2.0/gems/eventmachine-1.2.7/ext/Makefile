@@ -13,12 +13,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/tarkhov/.rbenv/versions/3.2.2/include/ruby-3.2.0
+topdir = /Users/vladimirternovykh/.rbenv/versions/3.2.2/include/ruby-3.2.0
 hdrdir = $(topdir)
-arch_hdrdir = /Users/tarkhov/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin23
+arch_hdrdir = /Users/vladimirternovykh/.rbenv/versions/3.2.2/include/ruby-3.2.0/arm64-darwin24
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/tarkhov/.rbenv/versions/3.2.2
+prefix = $(DESTDIR)/Users/vladimirternovykh/.rbenv/versions/3.2.2
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -106,7 +106,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = arm64-darwin23
+arch = arm64-darwin24
 sitearch = $(arch)
 ruby_version = 3.2.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)
