@@ -12,11 +12,9 @@ mode: light # default theme "dark" | "light"
 author:
   name: Andrei Tarkhov # author name
   bio: | # tell to the world
-    longevity researcher with a phd in theoretical physics. my dream is to understand why we age and leverage it to significantly impact human health and longevity.
-
-    long-term: I work on understanding the fundamental mechanisms of aging through compbio & applied ai, physics & chaos theory with the goal to find practical ways extend longevity.
-    
-    currently at retro.bio, building applied ai to facilitate the development of life-extending and anti-aging therapies. 
+    ### longevity researcher with a phd in theoretical physics. my dream is to understand why we age and leverage it to significantly impact human health and longevity.
+    * long-term: I work on understanding the fundamental mechanisms of aging through compbio & applied ai, physics & chaos theory with the goal to find practical ways extend longevity.
+    * Points currently at retro.bio, building applied ai to facilitate the development of life-extending and anti-aging therapies. 
 
   username: tarkhov # general username
   github: TarkhovAndrei # github username
