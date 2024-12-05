@@ -10,12 +10,11 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Andrei E. Tarkhov # author name
+  name: Andrei Tarkhov # author name
   bio: >- # tell to the world
-    Longevity and aging researcher with a PhD in theoretical physics. I've been interested in understanding the fundamental mechanisms of aging through computational biology & applied ai, statistical physics & dynamical systems & chaos theory. 
-    Currently at retro.bio, I'm building applied ai to facilitate the development of life-extending and anti-aging therapies. 
-    My dream is to better understand why we age and use this understanding to significantly impact human health and longevity. 
-    Besides science, I enjoy good literature, birding, history, learning new languages and exploring various cultures.
+    longevity researcher with a phd in theoretical physics. my dream is to understand why we age and leverage it to significantly impact human health and longevity.
+    currently at retro.bio, building applied ai to facilitate the development of life-extending and anti-aging therapies. 
+    long-term: I work on understanding the fundamental mechanisms of aging through compbio & applied ai, physics & chaos theory with the goal to find practical ways extend longevity
   username: tarkhov # general username
   github: TarkhovAndrei # github username
   twitter: Andrei_Tarkhov # twitter username
