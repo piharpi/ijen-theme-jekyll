@@ -18,7 +18,7 @@
   -webkit-user-select: none;
 
   a#mode {
-    float: left;
+    float: right;
     left: 8px;
     top: 6px;
     position: relative;
@@ -62,6 +62,7 @@
 
   .trigger {
     float: right;
+    padding-top: 15px;
   }
 
   .menu-trigger {
@@ -73,7 +74,7 @@
   }
 
   .menu-link {
-    color: $black;
+    color: #4f9eee;
     line-height: $base-line-height + 0.4;
     text-decoration: none;
     padding: 5px 8px;
@@ -181,7 +182,7 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
+  margin-top: 5rem;
   margin-bottom: 7.2rem;
   text-align: center;
 
@@ -190,8 +191,8 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -205,13 +206,14 @@
   .author-name {
     font-size: 1.7em;
     margin-bottom: 2px;
+    margin-top: 0;
   }
 
   .author-bio {
     margin: 0 auto;
     opacity: 0.9;
-    max-width: 500px;
-    line-height: 1.688;
+    max-width: 100%;
+    line-height: 1.5;
   }
 }
 
