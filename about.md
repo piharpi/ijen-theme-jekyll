@@ -6,7 +6,7 @@ excerpt: Hi, I'm Jigyasu. I am an engineering undergraduate at the National Inst
 comments: false
 ---
 
-[](https://i.ibb.co/SBNHLnd/Whats-App-Image-2024-12-30-at-5-04-23-PM.jpg)
+[](assets/img/jigyasu.jpeg)
 
 Hello! I'm Jigyasu, a sophomore at the [National Institute of Technology](https://en.wikipedia.org/wiki/National_Institutes_of_Technology_(India)) Agartala pursuing my undergrad in electronics and instrumentation engineering.
 I'm interested in artificial intelligence, computer graphics, and human-computer interaction (HCI).
