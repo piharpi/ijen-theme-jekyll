@@ -18,7 +18,7 @@ author:
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
   email: jigyasu@outlook.in # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/avatar.jpeg # change with your own avatar
 
 # URL settings
 url: "https://jgyasu.github.io" # site url
