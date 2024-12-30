@@ -12,8 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Jigyasu # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+    I am an engineering undergraduate at the National Institute of Technology (NIT) Agartala, India. I am researching on watermarking methods for AI-generated content.
   username: username # general username
   github: jgyasu # github username
   twitter: twitter_username # twitter username
