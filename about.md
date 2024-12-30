@@ -1,18 +1,19 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hi, I'm Jigyasu. I am an engineering undergraduate at the National Institute of Technology (NIT) Agartala, India. I am interested in artificially intelligent systems.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Hello! I'm Jigyasu, a sophomore at the [National Institute of Technology](https://en.wikipedia.org/wiki/National_Institutes_of_Technology_(India)) Agartala pursuing my undergrad in electronics and instrumentation engineering.
+I'm interested in artificial intelligence, computer graphics, and human-computer interaction (HCI).
 
-If you have a question about him or else, just send a letter to him.
+Currently, I am collaborating with [Dr. Amitava Das](https://scholar.google.com/citations?user=HYpfhaEAAAAJ&hl=en) at the [AI Institute, University of South Carolina](https://sc.edu/study/colleges_schools/engineering_and_computing/research/research_centers_and_institutes/artificial_intelligence_institute/index.php), where I am researching watermarking methods for AI-generated content.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+I also contribute to [sktime](https://www.sktime.net/) as a mentee.
 
-**may u needs ✨**
-
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+**Relevant Links**  
+Email: [{{ site.author.email }}](mailto:{{ site.author.email }})  
+GitHub: [github.com/{{ site.author.github }}](https://github.com/{{ site.author.github }})  
+LinkedIn: [linkedin.com/in/jgyasu](https://linkedin.com/in/jgyasu)
