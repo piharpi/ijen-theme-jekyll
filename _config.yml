@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Jigyasu # author name
   bio: >- # tell to the world
-    trying to minimize the most difficult loss function: my life
+    trying to minimize the most complex loss function: my life
   username: username # general username
   github: jgyasu # github username
   twitter: twitter_username # twitter username
@@ -24,7 +24,7 @@ author:
 url: "https://jgyasu.github.io" # site url
 baseurl:
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+google_analytics: 
 fb_appid:
 
 # Collection setting
